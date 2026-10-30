@@ -1,0 +1,32 @@
+@use "../../abstract" as *;
+
+.mouth {
+	position: absolute;
+	top: 316px;
+	left: 195px;
+	transform: rotate(-8deg);
+	width: 130px;
+	height: 36px;
+
+	background-color: transparent;
+
+	border: 2px solid transparent;
+	border-bottom: 2px solid $ash-hair-dark;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+
+	border-radius: 50%;
+
+	// *** Test ***
+	top: 321px;
+	left: 199px;
+	transform: rotate(-8deg);
+	width: 121px;
+	height: 31px;
+	background-color: transparent;
+	border: 3px solid transparent;
+	border-bottom: 2px solid #232328;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	// *** End of Test ***
+}

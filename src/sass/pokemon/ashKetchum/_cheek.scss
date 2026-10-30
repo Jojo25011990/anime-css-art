@@ -1,0 +1,77 @@
+@use "../../abstract" as *;
+
+.cheek {
+	position: absolute;
+	top: 282px;
+	left: 315px;
+
+	width: 45px;
+	height: 37px;
+
+	border: 1px solid transparent;
+}
+
+.cheek-left {
+	top: 304px;
+	left: 159px;
+	transform: rotate(-6deg);
+}
+
+.cheek-part01 {
+	position: absolute;
+	top: 15px;
+	left: -1px;
+	transform: rotate(-34deg);
+
+	width: 26px;
+	height: 2.3px;
+
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+	background-color: $ash-hair-dark;
+
+	mask-image: linear-gradient(
+		to right,
+		transparent,
+		$ash-hair-dark 20%,
+		$ash-hair-dark 100%,
+		transparent 100%
+	);
+}
+
+.cheek-part02 {
+	position: absolute;
+	top: 9.3px;
+	left: 21px;
+	transform: rotate(5deg);
+
+	width: 2.3px;
+	height: 15px;
+	border-radius: 50%;
+
+	background-color: $ash-hair-dark;
+}
+
+.cheek-part03 {
+	position: absolute;
+	top: 17px;
+	left: 19px;
+	transform: rotate(-26deg);
+
+	width: 26px;
+	height: 2.3px;
+
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+
+	background-color: $ash-hair-dark;
+
+	mask-image: linear-gradient(
+		to left,
+		transparent,
+		$ash-hair-dark 20%,
+		$ash-hair-dark 100%,
+		transparent 100%
+	);
+}

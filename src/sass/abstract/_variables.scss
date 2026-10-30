@@ -1,0 +1,75 @@
+// *** Background ***
+$bg-sky: #88e4fa;
+$bg-cyan: #a1e8ef;
+$bg-mint: #c4e9d4;
+$bg-cream: #f1e8b8;
+
+$bg-gradient: linear-gradient(
+	180deg,
+	$bg-sky 0%,
+	$bg-cyan 40%,
+	$bg-mint 68%,
+	$bg-cream 100%
+);
+
+// *** End of Background ***
+
+// *** Ash Ketchum ***
+// *** End of Ash Ketchum ***
+
+// *** Pikachu ***
+// *** End of Pikachu ***
+
+/* =========================
+   ASH KETCHUM
+========================= */
+
+// Hair
+$ash-hair: #31444c;
+// $ash-hair: #3f5a65;
+$ash-hair-dark: #232328;
+
+// Skin
+$ash-skin: #f6ab83;
+$ash-skin-shadow: #c9826b;
+$ash-skin-deep-shadow: #9a6b59;
+
+// Shirt
+$ash-shirt: #4976ad;
+$ash-shirt-shadow: #3e5881;
+
+/* =========================
+   ASH'S CAP
+========================= */
+
+$hat-red: #d3534e;
+$hat-red-shadow: #9a443d;
+$hat-red-mid: #be5a54;
+$hat-back: #ceead2;
+$hat-buckle: #d4a64d;
+
+/* =========================
+   PIKACHU
+========================= */
+
+// Body
+$pikachu-yellow: #f5cd51;
+$pikachu-shadow: #cf9f4d;
+$pikachu-highlight: #f6e7b5;
+
+// Cheeks
+$pikachu-cheeks: #f36a55;
+
+// Ears and outlines
+$pikachu-outline: #2d160f;
+$pikachu-ear-dark: #30211d;
+
+/* =========================
+   FACE DETAILS
+========================= */
+
+$eye-white: #f7f7f5;
+$eye-brown: #8a4c35;
+$eye-pupil: #20110d;
+$face-detail: #392a28;
+$highlight-white: #ffffff;

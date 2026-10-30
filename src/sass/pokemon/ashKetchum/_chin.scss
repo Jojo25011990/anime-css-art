@@ -1,0 +1,57 @@
+@use "../../abstract" as *;
+.chin {
+	position: absolute;
+	top: 274px;
+	left: 110px;
+
+	width: 282px;
+	height: 163px;
+
+	border: 1px solid blue;
+
+	&-part {
+		border-color: $ash-hair-dark;
+	}
+
+	&-part01 {
+		position: absolute;
+		top: 84px;
+		right: 2px;
+		transform: rotate(-41deg);
+
+		width: 140px;
+		height: 33px;
+
+		border-radius: 60%;
+
+		background-color: transparent;
+
+		border-bottom: 2px solid;
+		border-left: 2px solid transparent;
+		border-right: 2px solid transparent;
+
+		&::before {
+			content: "";
+
+			position: absolute;
+			top: -21px;
+			right: -12px;
+			transform: rotate(51deg);
+
+			width: 20px;
+			height: 56px;
+
+			background-color: transparent;
+
+			border-radius: 60%;
+			border-right: 2px solid;
+			border-bottom: 1px solid;
+		}
+	}
+
+	&-part02 {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
