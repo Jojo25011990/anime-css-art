@@ -5,7 +5,7 @@
 	left: 0;
 
 	width: 453px;
-	height: 420px;
+	height: 430px; // 420 default
 
 	overflow: hidden;
 	// border: 1px solid blue;
@@ -265,6 +265,36 @@
 			border-top: 3px solid $ash-hair-dark;
 
 			border-radius: 60%;
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+			}
+
+			&::before {
+				top: -24px;
+				left: 43px;
+				transform: rotate(105deg);
+
+				width: 30px;
+				height: 51px;
+				border-radius: 60%;
+
+				background-color: $ash-hair;
+			}
+
+			&::after {
+				top: -32px;
+				left: 36px;
+				transform: rotate(105deg);
+
+				width: 20px;
+				height: 51px;
+				border-radius: 60%;
+
+				background-color: $ash-hair;
+			}
 		}
 
 		& > div:nth-child(2) {
@@ -280,6 +310,44 @@
 
 			border: 3px solid transparent;
 			border-top: 3px solid $ash-hair-dark;
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+			}
+
+			&::before {
+				position: absolute;
+				top: 9px;
+				left: -24px;
+				transform: rotate(-30deg);
+
+				width: 40px;
+				height: 20px;
+
+				border-radius: 60%;
+				border-top: 5px solid $ash-hair;
+				border-left: 0px solid transparent;
+				border-right: 10px solid transparent;
+
+				background-color: transparent;
+			}
+
+			&::after {
+				position: absolute;
+				top: 19px;
+				left: -22px;
+				transform: rotate(-22deg);
+
+				width: 28px;
+				height: 4px;
+
+				border-radius: 60%;
+				border-top: 5px solid $ash-hair;
+
+				background-color: transparent;
+			}
 		}
 		& > div:last-child {
 			position: absolute;
@@ -294,6 +362,20 @@
 
 			border: 3px solid transparent;
 			border-top: 3px solid $ash-hair-dark;
+
+			&::before {
+				content: "";
+
+				position: absolute;
+				top: 6px;
+				left: 19px;
+				transform: rotate(30deg);
+
+				width: 20px;
+				height: 5px;
+
+				background-color: $ash-hair;
+			}
 		}
 	}
 
@@ -304,9 +386,37 @@
 		width: 46px;
 		height: 46px;
 
-		outline: 1px solid blue;
+		// outline: 1px solid blue;
 
 		border-radius: 0;
+
+		& > div:first-child {
+			position: absolute;
+			top: 15px;
+			left: -7px;
+			transform: rotate(-45deg);
+			width: 64px;
+
+			height: 15px;
+
+			border-radius: 50%;
+
+			border: 3px solid transparent;
+			border-top-color: $ash-hair-dark;
+			border-left: 3px solid transparent;
+		}
+
+		& > div:last-child {
+			position: absolute;
+			top: 39px;
+			left: 3px;
+			transform: rotate(-11deg);
+
+			width: 40px;
+			height: 3px;
+
+			background-color: $ash-hair-dark;
+		}
 	}
 
 	&-border08 {
@@ -316,9 +426,137 @@
 		width: 90px;
 		height: 120px;
 
-		outline: 1px solid blue;
+		border-radius: 0;
+
+		& > div:first-child {
+			position: absolute;
+			top: 32px;
+			left: -36px;
+			transform: rotate(-60deg);
+
+			width: 107px;
+			height: 17px;
+			border-radius: 70%;
+			border: 3px solid $ash-hair-dark;
+
+			background-color: transparent;
+		}
+
+		& > div:last-child {
+			position: absolute;
+			bottom: 15px;
+			left: -13px;
+			transform: rotate(18deg);
+
+			width: 100px;
+			height: 3px;
+
+			background-color: $ash-hair-dark;
+		}
+	}
+
+	&-border09 {
+		position: absolute;
+		top: 338px;
+		left: 50px;
+
+		width: 90px;
+		height: 50px;
 
 		border-radius: 0;
+
+		& > div:first-child {
+			position: absolute;
+			top: 11px;
+			left: 4px;
+			transform: rotate(-16deg);
+
+			width: 30px;
+			height: 3px;
+
+			background-color: $ash-hair-dark;
+		}
+
+		& > div:last-child {
+			position: absolute;
+			bottom: 16px;
+			left: 3px;
+			transform: rotate(19deg);
+
+			width: 90px;
+			height: 3px;
+
+			background-color: $ash-hair-dark;
+		}
+	}
+
+	&-border10 {
+		position: absolute;
+		top: 377px;
+		left: 110px;
+
+		width: 90px;
+		height: 50px;
+
+		outline: 1px solid blue;
+		border-radius: 0;
+
+		& > div {
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			height: 3px;
+
+			background-color: $ash-hair-dark;
+		}
+
+		& > div:first-child {
+			top: 13px;
+			left: 4px;
+			transform: rotate(-48deg);
+
+			width: 40px;
+			height: 10px;
+
+			border: 3px solid transparent;
+			border-top-color: $ash-hair-dark;
+
+			border-radius: 50%;
+
+			background-color: transparent;
+		}
+
+		& > div:last-child {
+			top: 25px;
+			left: 10px;
+			transform: rotate(158deg);
+
+			width: 41px;
+		}
+
+		& > div:nth-child(2) {
+			top: 20px;
+			left: 30px;
+			transform: rotate(-74deg);
+
+			width: 40px;
+			height: 10px;
+
+			border: 3px solid transparent;
+			border-top-color: $ash-hair-dark;
+
+			border-radius: 50%;
+
+			background-color: transparent;
+		}
+		& > div:nth-child(3) {
+			top: 32px;
+			left: 40px;
+			transform: rotate(149deg);
+
+			width: 47px;
+		}
 	}
 
 	// *** End of Borders ***

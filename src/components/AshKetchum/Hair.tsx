@@ -32,12 +32,13 @@ const Hair = () => {
 				<div></div>
 				<div></div>
 			</div>
-			<div className="hair-border010 hair-border">
+			<div className="hair-border10 hair-border">
+				<div></div>
 				<div></div>
 				<div></div>
 				<div></div>
 			</div>
-			<div className="hair-border011 hair-border">
+			<div className="hair-border11 hair-border">
 				<div></div>
 				<div></div>
 				<div></div>
